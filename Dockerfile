@@ -21,7 +21,6 @@ ENV PATH=/home/supermap/miniconda/bin:${PATH}
 COPY requirements-conda-cpu.yml ./
 RUN conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/ && \
   conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/ && \
-  conda config --add channels https://pypi.tuna.tsinghua.edu.cn/simple/ && \
   conda config --set show_channel_urls yes && \
   conda env update -n base -f requirements-conda-cpu.yml && \
   conda clean --all -f -y

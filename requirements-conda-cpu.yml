@@ -61,5 +61,4 @@ dependencies:
         - torch-spline-conv==1.2.1
         - torch-geometric==1.7.1
         - torch-geometric-temporal==0.37
-        - geoai-detectron2==0.4
 
