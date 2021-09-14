@@ -54,7 +54,6 @@ dependencies:
         - xgboost==1.4.2
         - geoai-GDAL==3.2.3
         - geoai-rasterio>=1.2.3
-        - geoai-detectron2==0.4
         - -f https://pytorch-geometric.com/whl/torch-1.8.0+cpu.html
         - torch-scatter==2.0.7
         - torch-cluster==1.5.9
@@ -62,4 +61,5 @@ dependencies:
         - torch-spline-conv==1.2.1
         - torch-geometric==1.7.1
         - torch-geometric-temporal==0.37
+        - geoai-detectron2==0.4
 
