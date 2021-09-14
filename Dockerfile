@@ -19,6 +19,7 @@ ENV PATH=/home/supermap/miniconda/bin:${PATH}
 # RUN conda update -y conda
 # conda config --set remote_read_timeout_secs 6000.0 && \
 COPY requirements-conda-cpu.yml ./
+COPY detectron2-0.4cpu-cp37-cp37m-linux_x86_64.whl ./
 RUN conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/ && \
   conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/ && \
   conda config --set show_channel_urls yes && \

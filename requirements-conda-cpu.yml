@@ -54,7 +54,7 @@ dependencies:
         - xgboost==1.4.2
         - geoai-GDAL==3.2.3
         - geoai-rasterio>=1.2.3
-        - geoai-detectron2==0.4
+        - ./detectron2-0.4cpu-cp37-cp37m-linux_x86_64.whl
         - -f https://pytorch-geometric.com/whl/torch-1.8.0+cpu.html
         - torch-scatter==2.0.7
         - torch-cluster==1.5.9
