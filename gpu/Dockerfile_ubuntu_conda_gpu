@@ -59,7 +59,7 @@ ENV PATH=/home/supermap/miniconda/bin:${PATH}
 # RUN conda update -y conda
 
 COPY requirements-conda-gpu.yml ./
-COPY geoai_detectron2-0.4-cp37-cp37m-win_amd64.whl ./
+COPY detectron2-0.4-cp37-cp37m-linux_x86_64 ./
 
 RUN conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/ && \
   conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/ && \
